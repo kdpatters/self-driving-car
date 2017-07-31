@@ -74,13 +74,7 @@ computed lag 1 differences between frames and used 2 consecutive differenced ima
 For example, at time t we used [x_{t} - x_{t-1}, x_{t-1} - x_{t-2}] as input where x corresponds to the grayscale image. 
 No future frames were used to predict the current steering angle.
 
-To pre-process phase 2 training data, run:
-
-```
-python preprocess_train_data.py
-```
-
-To pre-process phase 2 test data, run:
+To pre-process phase 1 and phase 2 training data, run:
 
 ```
 python preprocess_train_data.py
